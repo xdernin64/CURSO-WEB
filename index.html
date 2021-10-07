@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    
+    <title>Registro de eventos de calidad de agua</title>
+
+</head>
+<style>
+
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<body>
+<div id="caja"> 
+<H1>REGISTRA TUS EVENTOS y SUPERVISA TUS TAREAS <br> Planta de osmosis </H1>
+
+<H2>REPORTES DIARIOS</H2>
+<p class="textos">El area pide la saber sobre los eventos ocurridos , es indispensable reportar diariamente las ocurrencias en tu area <br> <blockquote><strong>NO olvidar </strong></blockquote> </p>
+<H3>TAREAS ASIGNADAS</H3>
+<p class="textos">Tu encargado te asignara un listado de tareas que deberan ser resueltas en un plazo maximo , podras solicitar una apliacion de plazo si es necesario</p>
+
+<P> <SPAn id="resaltado" class="AMARILLO"> ver tus tareas </SPAn>  </P>
+<HR>
+<ol>
+<li ><a href="/02_fuentes/index.html">Mis tareas</a></li> 
+<li><a href="·">Mis eventos</a></li>
+<li><a href="·">ingresar</a></li>
+
+</ol>
+<ul> <li>llamar a mi encado</li> 
+<li>Mandar mensaje a mi encargado</li>
+
+</ul>
+<hr> 
+<h4  >Rol semanal  </h4>
+<img src="imagen\rol_semanal.PNG " alt="ejemplo de imagen" title="Foto del logo" >
+<h2>DESCANSOS</h2>
+<table class="tablas" border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Dia de DESCANSOS</th>
+        <th>labor</th>
+
+    </tr>
+    <tr>
+        <td>jonny</td>
+        <td>aretaga</td>
+        <td>lunes</td>
+        <td colspan="3">operador de planta</td>
+    </tr>
+    <tr>
+        <td >jonny</td>
+        <td>aretaga</td>
+        <td>lunes</td>
+        <td>operador de planta</td>
+    </tr>
+    <hr>
+    
+
+</table>
+<h1>Solicitar descanso</h1>
+<div id="solicitud">
+<form action="">
+    <p>
+    <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="escriba su nombre">
+        </p>
+        <p>
+        <label for="apellido">apellidos</label>
+        <input type="text" name="apeliido" placeholder="escriba sus apellidos">
+    </p>
+    <p id="dni">
+        <label for="dni">DNI</label>
+        <input type="text" name="dni" placeholder="escriba su DNI">
+    </p>
+    <p>
+        <label for="motivo" >Motivos</label>
+            <textarea name="motivo" id="" cols="30" rows="10" placeholder="Escriba sus razones"></textarea>
+    </p>
+    <p class="opcionderadio">
+        <input type="radio" name="enfermedad" id="enfermo">Estoy enfermo <br>
+        <input type="radio" name="enfermedad" id="sano"> No estoy enfermo <br>
+    </p>
+        <label for="diapropuesto">Que dia necesita descansar</label>
+        <select name="diadescanso" id="">
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miercoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sabado">Sabado</option>
+            <option value="domingo">Domingo</option>
+    <P id="botonenviar">
+    <input type="submit" value="Enviar solicitud">
+    </p>
+    </form>
+    </div>
+    <footer><a href="#"> Calidad de agua &copy;</a></footer>
+</div>
+</body>
+</html>
